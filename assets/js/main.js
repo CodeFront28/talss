@@ -461,10 +461,10 @@
     const moonImg = $(".moon");
     const moonSrc = moonImg?.getAttribute("src") || "assets/img/moon.webp";
 
-    setPreloadText("LOADING VISUALS…");
+    setPreloadText("ANALYZING HUMAN MARKET...");
     const imgTasks = [preloadImage(bgSrc, 12000), preloadImage(moonSrc, 12000)];
 
-    setPreloadText("LOADING VIDEO…");
+    setPreloadText("CALCULATING PROFITS...");
 
     startVideo.setAttribute("preload", "auto");
     endVideo.setAttribute("preload", "auto");
